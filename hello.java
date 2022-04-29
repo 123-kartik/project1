@@ -12,11 +12,15 @@ char c='A';
 System.out.print(c+" ");
 c++;
 }
-for(int j=i;j<5;j++){
+c-=2;
+for(int j=i-1;j<3;j++){
 System.out.print(c+" ");
 c--;
 }
 System.out.println();
 }
+System.out.println("Kartik");
+System.out.println("Murlidhar");
+System.out.println("Paliwal");
 }
 }
